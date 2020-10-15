@@ -1,0 +1,49 @@
+body {
+  position: relative;
+}
+
+#app {
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+}
+
+#title {
+  font-size: 2rem;
+}
+
+#title,
+#description {
+  padding: 10px;
+  color: rgb(97, 96, 96);
+  position: relative;
+}
+
+#legend {
+  position: absolute;
+  overflow: visible;
+  top: 25%;
+  right: 0%;
+}
+
+#tooltip {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 60px;
+  line-height: 30px;
+  background-color: rgb(193, 213, 216);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #legend {
+    display: none;
+  }
+}
